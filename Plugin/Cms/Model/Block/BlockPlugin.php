@@ -46,7 +46,7 @@ final class BlockPlugin
      * @param BlockInterface $block
      * @param array $arguments
      */
-    public function beforeSave(BlockInterface $block, ... $arguments) // NOSONAR
+    public function beforeBeforeSave(BlockInterface $block, ... $arguments) // NOSONAR
     {
         /** @noinspection PhpUndefinedMethodInspection */
         $json = $block->getPageDesignerJson();
